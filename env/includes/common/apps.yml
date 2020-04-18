@@ -12,10 +12,38 @@
 # this file contains apps that are common to multiple applications
 # and setups
 
+ToolkitApp: &ToolkitApp CustomNonProjectEntity15
+
 includes:
 - frameworks.yml
 
 # full app settings
+
+common.apps.dvs-multi-basedir:
+  location:
+    type: shotgun
+    entity_type: *ToolkitApp
+    id: 35
+    field: sg_uploaded_app
+    version: 389625
+#     type: dev
+#     path: ~/pipeline/Tk-Apps/dvs-multi-basedir
+
+# common.apps.sb-shotgun-schema-introspection:
+#   location:
+#     type: dev
+#     path: ~/work/tools/Tk-apps/sb-shotgun-schema-introspection
+
+# common.apps.tk-folderdemo:
+#   location:
+#     type: dev
+#     path: ~/pipeline/tk-folderdemo
+
+common.apps.tk-multi-demo:
+  location:
+    version: v1.0.0
+    type: app_store
+    name: tk-multi-demo
 
 common.apps.tk-multi-about:
   location:

@@ -21,6 +21,11 @@ includes:
 desktop.project:
   apps:
 
+    dvs-multi-basedir: '@common.apps.dvs-multi-basedir'
+    # tk-folderdemo: '@common.apps.tk-folderdemo'
+    tk-multi-demo: '@common.apps.tk-multi-demo'
+    sb-shotgun-schema-introspection: '@common.apps.sb-shotgun-schema-introspection'
+
     tk-multi-pythonconsole: '@common.apps.tk-multi-pythonconsole'
 
     tk-multi-publish2:
