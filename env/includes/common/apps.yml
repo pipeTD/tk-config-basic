@@ -54,7 +54,7 @@ common.apps.tk-framework-qtwidgets:
 
 common.apps.tk-multi-demo:
   location:
-    version: v1.0.0
+    version: v1.2.0
     type: app_store
     name: tk-multi-demo
 
