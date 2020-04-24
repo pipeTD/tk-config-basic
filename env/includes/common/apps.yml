@@ -26,6 +26,9 @@ common.apps.dvs-multi-basedir:
     id: 35
     field: sg_uploaded_app
     version: 389625
+    # type: git
+    # path: https://github.com/dreamview-studios-inc/dvs-multi-basedir.git
+    # version: v0.1.0
 #     type: dev
 #     path: ~/pipeline/Tk-Apps/dvs-multi-basedir
 
@@ -36,8 +39,18 @@ common.apps.dvs-multi-basedir:
 
 # common.apps.tk-folderdemo:
 #   location:
-#     type: dev
-#     path: ~/pipeline/tk-folderdemo
+#     type: git_branch
+#     branch: master
+#     path: https://github.com/pipeTD/tk-folderdemo.git
+#     version: 261ff94
+    # type: dev
+    # path: ~/pipeline/tk-folderdemo
+
+common.apps.tk-framework-qtwidgets:
+  location:
+    version: v2.9.2
+    type: app_store
+    name: tk-framework-qtwidgets
 
 common.apps.tk-multi-demo:
   location:
