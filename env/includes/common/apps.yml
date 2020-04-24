@@ -46,12 +46,6 @@ common.apps.dvs-multi-basedir:
     # type: dev
     # path: ~/pipeline/tk-folderdemo
 
-common.apps.tk-framework-qtwidgets:
-  location:
-    version: v2.9.2
-    type: app_store
-    name: tk-framework-qtwidgets
-
 common.apps.tk-multi-demo:
   location:
     version: v1.2.0

@@ -23,7 +23,6 @@ desktop.project:
 
     dvs-multi-basedir: '@common.apps.dvs-multi-basedir'
     tk-multi-demo: '@common.apps.tk-multi-demo'
-    tk-multi-demo: '@common.apps.tk-framework-qtwidgets'
     # tk-folderdemo: '@common.apps.tk-folderdemo'
     # sb-shotgun-schema-introspection: '@common.apps.sb-shotgun-schema-introspection'
 
